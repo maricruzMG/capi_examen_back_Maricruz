@@ -16,8 +16,9 @@ return new class extends Migration
             $table->string('domicilio');
             $table->string('numero_exterior');
             $table->string('colonia');
-            $table->integer('cp');
+            $table->string('cp');
             $table->string('ciudad');
+            $table->timestamps();
         });
     }
 
